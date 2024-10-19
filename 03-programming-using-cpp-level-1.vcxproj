@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{cedb2fa0-8f37-436c-bf4d-7e1ce197f0a6}</ProjectGuid>
+    <RootNamespace>My03programmingusingcpplevel1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="03-programming-using-cpp-level-1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="L12_Output_Print\L12_1.h" />
+    <ClInclude Include="L12_Output_Print\L12_2.h" />
+    <ClInclude Include="L12_Output_Print\L12_3.h" />
+    <ClInclude Include="L12_Output_Print\L12_4.h" />
+    <ClInclude Include="L13_OmittingNamespace\L13_1.h" />
+    <ClInclude Include="L13_OmittingNamespace\L13_2.h" />
+    <ClInclude Include="L13_OmittingNamespace\L13_3.h" />
+    <ClInclude Include="L13_OmittingNamespace\L13_4.h" />
+    <ClInclude Include="L16_LiteralsAndEscapeSequences\L16_1.h" />
+    <ClInclude Include="L16_LiteralsAndEscapeSequences\L16_2.h" />
+    <ClInclude Include="L16_LiteralsAndEscapeSequences\L16_3.h" />
+    <ClInclude Include="L17_Variables\L17_1.h" />
+    <ClInclude Include="L17_Variables\L17_2.h" />
+    <ClInclude Include="L17_Variables\L17_3.h" />
+    <ClInclude Include="L18_UserInputs\L18_1.h" />
+    <ClInclude Include="L18_UserInputs\L18_2.h" />
+    <ClInclude Include="L18_UserInputs\L18_3.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_1.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P07.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P09.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P10.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P14.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P15.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P17.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P19.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P20.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P21.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P22.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P31.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P35.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P39.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P40.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P42.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P43.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P47.h" />
+    <ClInclude Include="L20_ArithmeticOperators\L20_P48.h" />
+    <ClInclude Include="L24_RelationalOperators.h" />
+    <ClInclude Include="L25_LogicalOperators.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P16.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P18.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P19.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P20.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P21.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P22.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P23.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P31.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P32.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P42.h" />
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P43.h" />
+    <ClInclude Include="L27_Structures.h" />
+    <ClInclude Include="L28_Enums.h" />
+    <ClInclude Include="L30_DataTypeConversion.h" />
+    <ClInclude Include="L31_Strings.h" />
+    <ClInclude Include="L32_FunctionsPart1.h" />
+    <ClInclude Include="L33_SolvingTheGetlineProblem.h" />
+    <ClInclude Include="L34_FunctionsPart2FunctionsVsProcedures.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P1.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P14.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P15.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P16.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P18.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P19.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P2.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P20.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P21.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P22.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P23.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P31.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P32.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P42.h" />
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P43.h" />
+    <ClInclude Include="L36_VariableScopeLocalVsGlobalVariables.h" />
+    <ClInclude Include="L37_FunctionParametersByValVsByRef\L37_P14.h" />
+    <ClInclude Include="L38_StructuresAndFunctionsReusability\L38_ConsoleApplication1.h" />
+    <ClInclude Include="L38_StructuresAndFunctionsReusability\L38_1.h" />
+    <ClInclude Include="L39_Arrays.h" />
+    <ClInclude Include="L40_ArraysWithFunctions.h" />
+    <ClInclude Include="L41_ArraysOfStructure.h" />
+    <ClInclude Include="L42_ConditionalStatementsIF_IFElseStatement\L42_P04.h" />
+    <ClInclude Include="L42_ConditionalStatementsIF_IFElseStatement\L42_P08.h" />
+    <ClInclude Include="L42_ConditionalStatementsIF_IFElseStatement\L42_P11.h" />
+    <ClInclude Include="L42_ConditionalStatementsIF_IFElseStatement\L42_P24.h" />
+    <ClInclude Include="L42_ConditionalStatementsIF_IFElseStatement\L42_P49.h" />
+    <ClInclude Include="L43_ConditionalElseIFStatement\L43_P33.h" />
+    <ClInclude Include="L43_ConditionalElseIFStatement\L43_P34.h" />
+    <ClInclude Include="L43_ConditionalElseIFStatement\L43_P36.h" />
+    <ClInclude Include="L43_ConditionalElseIFStatement\L43_P44.h" />
+    <ClInclude Include="L43_ConditionalElseIFStatement\L43_P45.h" />
+    <ClInclude Include="L45_SwitchCaseStatement\L45_P36.h" />
+    <ClInclude Include="L45_SwitchCaseStatement\L45_P44.h" />
+    <ClInclude Include="L45_SwitchCaseStatement\L45_P45.h" />
+    <ClInclude Include="L46_NestedFunctionsWithEnums.h" />
+    <ClInclude Include="L47_ForLoops\L47_P26.h" />
+    <ClInclude Include="L47_ForLoops\L47_P27.h" />
+    <ClInclude Include="L47_ForLoops\L47_P28.h" />
+    <ClInclude Include="L47_ForLoops\L47_P29.h" />
+    <ClInclude Include="L47_ForLoops\L47_P30.h" />
+    <ClInclude Include="L47_ForLoops\L47_P32.h" />
+    <ClInclude Include="L47_ForLoops\L47_P46.h" />
+    <ClInclude Include="L48_ForLoopAndArrays.h" />
+    <ClInclude Include="L49_NestedForLoops\L49_1.h" />
+    <ClInclude Include="L49_NestedForLoops\L49_2.h" />
+    <ClInclude Include="L49_NestedForLoops\L49_3.h" />
+    <ClInclude Include="L49_NestedForLoops\L49_4.h" />
+    <ClInclude Include="L49_NestedForLoops\L49_5.h" />
+    <ClInclude Include="L49_NestedForLoops\L49_6.h" />
+    <ClInclude Include="L50_WhileLoop\L50_P26.h" />
+    <ClInclude Include="L50_WhileLoop\L50_P27.h" />
+    <ClInclude Include="L50_WhileLoop\L50_P28.h" />
+    <ClInclude Include="L50_WhileLoop\L50_P29.h" />
+    <ClInclude Include="L50_WhileLoop\L50_P30.h" />
+    <ClInclude Include="L50_WhileLoop\L50_P32.h" />
+    <ClInclude Include="L50_WhileLoop\L50_P37.h" />
+    <ClInclude Include="L50_WhileLoop\L50_P46.h" />
+    <ClInclude Include="L50_WhileLoop\L50_P50.h" />
+    <ClInclude Include="L51_DoWhileLoop.h" />
+    <ClInclude Include="L52_BreakStatement.h" />
+    <ClInclude Include="L53_ContinueStatement.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

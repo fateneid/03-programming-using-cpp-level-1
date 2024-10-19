@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\L12_Output_Print">
+      <UniqueIdentifier>{d5f0fa14-ba14-472f-9a68-235fd490439c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L13_OmittingNamespace">
+      <UniqueIdentifier>{10cde18c-bb2e-478e-adf8-017363721737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L16_LiteralsAndEscapeSequences">
+      <UniqueIdentifier>{82560b43-d381-4d9d-a3c4-474e575ab28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L17_Variables">
+      <UniqueIdentifier>{9b959dbb-3b5d-4f70-ba5a-ea14d2c56b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L18_UserInputs">
+      <UniqueIdentifier>{feace775-50b9-49fe-b48b-10995ff45b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L20_ArithmeticOperators">
+      <UniqueIdentifier>{7fb514bd-c7ef-432f-aef0-695b29ddb79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L26_MathFunctionsInCPP">
+      <UniqueIdentifier>{f9c7935d-ce24-4afc-bab5-cde20638c497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L35_FunctionPart3Parameters">
+      <UniqueIdentifier>{aaacbaff-8e59-4809-b66b-2ad04423ea1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L37_FunctionParametersByValVsByRef">
+      <UniqueIdentifier>{f1267178-f5f9-41a4-bee8-08b6aa055dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L38_StructuresAndFunctionsReusability">
+      <UniqueIdentifier>{c6366859-0ad0-49f2-ad43-63c87aa52848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L42_ConditionalStatementsIF_IFElseStatement">
+      <UniqueIdentifier>{1743f89c-d624-4806-8650-0c373178db4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L43_ConditionalElseIFStatement">
+      <UniqueIdentifier>{6423f365-bffd-40f6-92c5-1a33a064b716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L45_SwitchCaseStatement">
+      <UniqueIdentifier>{57bc0daf-091c-4e06-9f95-ebcc81583eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L47_ForLoops">
+      <UniqueIdentifier>{cabf0d64-6c67-4625-9abe-b14f6ebc6256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L49_NestedForLoops">
+      <UniqueIdentifier>{13ef28ee-5053-4327-99c3-5d374f5fd4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L50_WhileLoop">
+      <UniqueIdentifier>{f41d7e98-059f-4fd7-8627-1818b0863cb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="03-programming-using-cpp-level-1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="L12_Output_Print\L12_1.h">
+      <Filter>Header Files\L12_Output_Print</Filter>
+    </ClInclude>
+    <ClInclude Include="L12_Output_Print\L12_2.h">
+      <Filter>Header Files\L12_Output_Print</Filter>
+    </ClInclude>
+    <ClInclude Include="L12_Output_Print\L12_3.h">
+      <Filter>Header Files\L12_Output_Print</Filter>
+    </ClInclude>
+    <ClInclude Include="L12_Output_Print\L12_4.h">
+      <Filter>Header Files\L12_Output_Print</Filter>
+    </ClInclude>
+    <ClInclude Include="L13_OmittingNamespace\L13_1.h">
+      <Filter>Header Files\L13_OmittingNamespace</Filter>
+    </ClInclude>
+    <ClInclude Include="L13_OmittingNamespace\L13_2.h">
+      <Filter>Header Files\L13_OmittingNamespace</Filter>
+    </ClInclude>
+    <ClInclude Include="L13_OmittingNamespace\L13_3.h">
+      <Filter>Header Files\L13_OmittingNamespace</Filter>
+    </ClInclude>
+    <ClInclude Include="L13_OmittingNamespace\L13_4.h">
+      <Filter>Header Files\L13_OmittingNamespace</Filter>
+    </ClInclude>
+    <ClInclude Include="L16_LiteralsAndEscapeSequences\L16_1.h">
+      <Filter>Header Files\L16_LiteralsAndEscapeSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="L16_LiteralsAndEscapeSequences\L16_2.h">
+      <Filter>Header Files\L16_LiteralsAndEscapeSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="L16_LiteralsAndEscapeSequences\L16_3.h">
+      <Filter>Header Files\L16_LiteralsAndEscapeSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="L17_Variables\L17_1.h">
+      <Filter>Header Files\L17_Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="L17_Variables\L17_2.h">
+      <Filter>Header Files\L17_Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="L17_Variables\L17_3.h">
+      <Filter>Header Files\L17_Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="L18_UserInputs\L18_1.h">
+      <Filter>Header Files\L18_UserInputs</Filter>
+    </ClInclude>
+    <ClInclude Include="L18_UserInputs\L18_2.h">
+      <Filter>Header Files\L18_UserInputs</Filter>
+    </ClInclude>
+    <ClInclude Include="L18_UserInputs\L18_3.h">
+      <Filter>Header Files\L18_UserInputs</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_1.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P07.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P09.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P10.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P14.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P15.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P17.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P19.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P20.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P21.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P22.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P31.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P35.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P39.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P40.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P42.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P43.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P47.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L20_ArithmeticOperators\L20_P48.h">
+      <Filter>Header Files\L20_ArithmeticOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P16.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P18.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P19.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P20.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P21.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P22.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P23.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P31.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P32.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P42.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L26_MathFunctionsInCPP\L26_P43.h">
+      <Filter>Header Files\L26_MathFunctionsInCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="L24_RelationalOperators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L25_LogicalOperators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L27_Structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L28_Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L30_DataTypeConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L31_Strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L32_FunctionsPart1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L33_SolvingTheGetlineProblem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L34_FunctionsPart2FunctionsVsProcedures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L36_VariableScopeLocalVsGlobalVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L39_Arrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L40_ArraysWithFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L41_ArraysOfStructure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L46_NestedFunctionsWithEnums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L48_ForLoopAndArrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L52_BreakStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L53_ContinueStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P1.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P2.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P14.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P15.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P16.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P18.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P19.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P20.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P21.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P22.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P23.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P31.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P32.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P42.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L35_FunctionPart3Parameters\L35_P43.h">
+      <Filter>Header Files\L35_FunctionPart3Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="L37_FunctionParametersByValVsByRef\L37_P14.h">
+      <Filter>Header Files\L37_FunctionParametersByValVsByRef</Filter>
+    </ClInclude>
+    <ClInclude Include="L38_StructuresAndFunctionsReusability\L38_ConsoleApplication1.h">
+      <Filter>Header Files\L38_StructuresAndFunctionsReusability</Filter>
+    </ClInclude>
+    <ClInclude Include="L38_StructuresAndFunctionsReusability\L38_1.h">
+      <Filter>Header Files\L38_StructuresAndFunctionsReusability</Filter>
+    </ClInclude>
+    <ClInclude Include="L42_ConditionalStatementsIF_IFElseStatement\L42_P04.h">
+      <Filter>Header Files\L42_ConditionalStatementsIF_IFElseStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L42_ConditionalStatementsIF_IFElseStatement\L42_P08.h">
+      <Filter>Header Files\L42_ConditionalStatementsIF_IFElseStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L42_ConditionalStatementsIF_IFElseStatement\L42_P11.h">
+      <Filter>Header Files\L42_ConditionalStatementsIF_IFElseStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L42_ConditionalStatementsIF_IFElseStatement\L42_P24.h">
+      <Filter>Header Files\L42_ConditionalStatementsIF_IFElseStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L42_ConditionalStatementsIF_IFElseStatement\L42_P49.h">
+      <Filter>Header Files\L42_ConditionalStatementsIF_IFElseStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L43_ConditionalElseIFStatement\L43_P33.h">
+      <Filter>Header Files\L43_ConditionalElseIFStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L43_ConditionalElseIFStatement\L43_P34.h">
+      <Filter>Header Files\L43_ConditionalElseIFStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L43_ConditionalElseIFStatement\L43_P36.h">
+      <Filter>Header Files\L43_ConditionalElseIFStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L43_ConditionalElseIFStatement\L43_P44.h">
+      <Filter>Header Files\L43_ConditionalElseIFStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L43_ConditionalElseIFStatement\L43_P45.h">
+      <Filter>Header Files\L43_ConditionalElseIFStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L45_SwitchCaseStatement\L45_P36.h">
+      <Filter>Header Files\L45_SwitchCaseStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L45_SwitchCaseStatement\L45_P44.h">
+      <Filter>Header Files\L45_SwitchCaseStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L45_SwitchCaseStatement\L45_P45.h">
+      <Filter>Header Files\L45_SwitchCaseStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="L47_ForLoops\L47_P26.h">
+      <Filter>Header Files\L47_ForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L47_ForLoops\L47_P27.h">
+      <Filter>Header Files\L47_ForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L47_ForLoops\L47_P28.h">
+      <Filter>Header Files\L47_ForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L47_ForLoops\L47_P29.h">
+      <Filter>Header Files\L47_ForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L47_ForLoops\L47_P30.h">
+      <Filter>Header Files\L47_ForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L47_ForLoops\L47_P32.h">
+      <Filter>Header Files\L47_ForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L47_ForLoops\L47_P46.h">
+      <Filter>Header Files\L47_ForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L49_NestedForLoops\L49_1.h">
+      <Filter>Header Files\L49_NestedForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L49_NestedForLoops\L49_2.h">
+      <Filter>Header Files\L49_NestedForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L49_NestedForLoops\L49_3.h">
+      <Filter>Header Files\L49_NestedForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L49_NestedForLoops\L49_4.h">
+      <Filter>Header Files\L49_NestedForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L49_NestedForLoops\L49_5.h">
+      <Filter>Header Files\L49_NestedForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L49_NestedForLoops\L49_6.h">
+      <Filter>Header Files\L49_NestedForLoops</Filter>
+    </ClInclude>
+    <ClInclude Include="L50_WhileLoop\L50_P26.h">
+      <Filter>Header Files\L50_WhileLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="L50_WhileLoop\L50_P27.h">
+      <Filter>Header Files\L50_WhileLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="L50_WhileLoop\L50_P28.h">
+      <Filter>Header Files\L50_WhileLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="L50_WhileLoop\L50_P29.h">
+      <Filter>Header Files\L50_WhileLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="L50_WhileLoop\L50_P30.h">
+      <Filter>Header Files\L50_WhileLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="L50_WhileLoop\L50_P32.h">
+      <Filter>Header Files\L50_WhileLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="L50_WhileLoop\L50_P37.h">
+      <Filter>Header Files\L50_WhileLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="L50_WhileLoop\L50_P46.h">
+      <Filter>Header Files\L50_WhileLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="L50_WhileLoop\L50_P50.h">
+      <Filter>Header Files\L50_WhileLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="L51_DoWhileLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
